@@ -1,0 +1,32 @@
+.why {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.why__list {
+  display: flex;
+  flex-basis: calc((100% - 60px) / 4);
+}
+
+.why__item {
+  width: 270px;
+    &:not(:last-child) {
+    margin-right: 30px;
+    }
+}
+
+.why__box {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why__description {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
